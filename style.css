@@ -1,0 +1,38 @@
+
+body{
+    background-color: #201d1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+article{
+    background-color: #000000;
+    text-align: center;
+    padding: 30px 20px 60px 30px;
+    display: block;
+}
+
+div.icon{
+    color: #fdf733;
+    display: inline-block;
+    font-size: 4.3em;
+    padding: 8px;
+}
+
+span{
+    color: white;
+    font-size: 4.3em;
+    margin: -1px;
+}
+
+span:hover{
+    color: #e74761;
+}
+
+span:hover + span{
+    color: #f08eb1;
+
+}
